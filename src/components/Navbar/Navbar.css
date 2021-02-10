@@ -36,3 +36,9 @@
 .active {
   color: #d05a09;
 }
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    display: none;
+  }
+}
