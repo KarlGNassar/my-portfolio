@@ -86,6 +86,7 @@ const Resume = () => {
                                     <GoStar className="resume__icon" />
                                     <h1>Others</h1>
                                     <p>GitHub</p>
+                                    <p>Redux</p>
                                     <p>GraphQL</p>
                                     <p>Yarn</p>
                                     <p>C++</p>

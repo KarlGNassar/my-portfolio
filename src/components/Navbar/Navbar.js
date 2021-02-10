@@ -56,7 +56,7 @@ const Navbar = () => {
                 </Link>
                 <Link 
                     className="navbar__links"
-                    to='worksId'
+                    to='projectsId'
                     smooth={true}
                     duration={500}
                     spy={true}
