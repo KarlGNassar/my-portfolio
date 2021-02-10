@@ -75,3 +75,21 @@
   transform: translateY(-2px);
   color: #11abb0;
 }
+
+@media screen and (max-width: 1000px) {
+  .projects__container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .projects__container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .projects__container {
+    grid-template-columns: 1fr;
+  }
+}

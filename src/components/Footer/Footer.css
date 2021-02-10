@@ -42,6 +42,7 @@
 .footer__icon {
   color: #525252;
   font-size: 40px;
+  transition: 0.3s ease-in;
 }
 
 .footer__icon:hover {

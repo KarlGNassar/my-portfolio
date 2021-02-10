@@ -88,3 +88,9 @@
   background-color: #ffffff;
   transition: 0.3s ease-in;
 }
+
+@media screen and (max-width: 800px) {
+  .contact__container {
+    flex-direction: column;
+  }
+}

@@ -98,3 +98,15 @@
   background-color: #11abb0;
   transition: 0.3s ease-in;
 }
+
+@media screen and (max-width: 800px) {
+  .hero__content > h1 {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero__content > h1 {
+    font-size: 50px;
+  }
+}

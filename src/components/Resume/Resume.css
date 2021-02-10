@@ -116,3 +116,19 @@
   font-weight: 300;
   line-height: 1.5;
 }
+
+@media screen and (max-width: 700px) {
+  .resume__option {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .resume__wrapper {
+    margin-left: 30px;
+  }
+  .resume__infoSkills > h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
