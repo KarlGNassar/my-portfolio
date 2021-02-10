@@ -21,7 +21,7 @@ const Projects = () => {
                         <a href="https://chat-mern-ae2c1.firebaseapp.com/" target="_blank" rel="noreferrer">
                             <FiLink className="projects__icon"/>
                         </a>
-                        <a href="https://github.com/KarlGNassar/chat-app" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/KarlGNassar/chat-mern" target="_blank" rel="noreferrer">
                             <VscGithub className="projects__icon"/>
                         </a>
                     </div>
