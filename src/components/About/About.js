@@ -14,7 +14,11 @@ const About = () => {
                 <div className="about__paragraph">
                     <h1>About Me</h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quam magnam mollitia eaque voluptate. Voluptatibus, a quis quo esse aut maiores laudantium qui modi blanditiis consectetur corporis facere dolor harum porro veniam explicabo deserunt officiis nisi molestiae velit. Consequatur eveniet vel inventore! Atque necessitatibus tempore nesciunt odit unde voluptas architecto?
+                        Hi There! I am Karl! I've been coding for 3 months. Currently studyin at the Lebanese University, I am a 
+                        passionate learner about coding and full stack development. My journey started when I came across a youtube 
+                        video talking about react.js and how it is becoming the best web framework in 2020; this got me instantly
+                        hooked to javascript and web development. Always seeking for new challenges and adventures, I hope to take 
+                        my coding skills and problem solving to the next level.
                     </p>
                 </div>
 
