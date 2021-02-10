@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import PorfilePic from '../../images/profile.jpg'
+import PorfilePic from '../../images/profile.png'
 import { FaDownload } from 'react-icons/fa'
 
 const About = () => {
