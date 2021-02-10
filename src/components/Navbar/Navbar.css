@@ -2,6 +2,8 @@
   width: 100vw;
   height: 80px;
   background-color: transparent;
+  position: fixed;
+  z-index: 999;
 }
 
 .navbar__elements {
@@ -10,11 +12,13 @@
   align-items: center;
   margin: 10px 30%;
   color: #e4eaec;
+  z-index: 999;
 }
 
 .navbar__links {
   font-weight: 700;
   transition: all 0.3s ease-in-out;
+  z-index: 999;
 }
 
 .navbar__links:hover {

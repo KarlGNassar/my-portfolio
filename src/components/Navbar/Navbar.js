@@ -12,7 +12,7 @@ const Navbar = () => {
                     smooth={true}
                     duration={500}
                     spy={true}
-                    exact={true}
+                    exact='true'
                 >
                     <p>Home</p>
                 </Link>
@@ -22,7 +22,7 @@ const Navbar = () => {
                     smooth={true}
                     duration={500}
                     spy={true}
-                    exact={true}
+                    exact='true'
                 >
                     <p>About</p>
                 </Link>
@@ -32,7 +32,7 @@ const Navbar = () => {
                     smooth={true}
                     duration={500}
                     spy={true}
-                    exact={true}
+                    exact='true'
                 >
                     <p>Resume</p>
                 </Link>
@@ -42,7 +42,7 @@ const Navbar = () => {
                     smooth={true}
                     duration={500}
                     spy={true}
-                    exact={true}
+                    exact='true'
                 >
                     <p>Works</p>
                 </Link>
@@ -52,7 +52,7 @@ const Navbar = () => {
                     smooth={true}
                     duration={500}
                     spy={true}
-                    exact={true}
+                    exact='true'
                 >
                     <p>Contact</p>
                 </Link>
