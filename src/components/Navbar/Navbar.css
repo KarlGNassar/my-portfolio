@@ -1,0 +1,28 @@
+.navbar {
+  width: 100vw;
+  height: 80px;
+  background-color: transparent;
+}
+
+.navbar__elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 30%;
+  color: #e4eaec;
+}
+
+.navbar__links {
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar__links:hover {
+  color: #d05a09;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar__links .active {
+  color: #d05a09;
+}
