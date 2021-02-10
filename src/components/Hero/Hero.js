@@ -7,6 +7,7 @@ import { ImInstagram } from 'react-icons/im'
 import { FaGithub } from 'react-icons/fa'
 import { IoIosArrowDown } from 'react-icons/io'
 import { Link } from 'react-scroll'
+import Typewriter from 'typewriter-effect'
 
 const Hero = () => {
     return (
@@ -16,7 +17,17 @@ const Hero = () => {
             </div>
 
             <div className="hero__content">
-                <h1>I'm Karl Nassar.</h1>
+                <h1>
+                    <Typewriter 
+                        onInit={(typewriter) => {
+                            typewriter.typeString("I'm Karl Nassar")
+                                .pauseFor(2000)
+                                .deleteAll()
+                                .typeString("Full Stack Developer")
+                                .start()
+                        }}    
+                    />
+                </h1>
                 <p>
                     Based in Lebanon. I eat, sleep and breathe code.
                 </p>
