@@ -23,7 +23,7 @@ const Navbar = () => {
             <div className="navbar__elements">
                 <Link 
                     className="navbar__links"
-                    to='home'
+                    to='homeId'
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -34,7 +34,7 @@ const Navbar = () => {
                 </Link>
                 <Link 
                     className="navbar__links"
-                    to='about'
+                    to='aboutId'
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -45,7 +45,7 @@ const Navbar = () => {
                 </Link>
                 <Link 
                     className="navbar__links"
-                    to='resume'
+                    to='resumeId'
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -56,18 +56,18 @@ const Navbar = () => {
                 </Link>
                 <Link 
                     className="navbar__links"
-                    to='works'
+                    to='worksId'
                     smooth={true}
                     duration={500}
                     spy={true}
                     exact='true'
                     offset={-45}
                 >
-                    <p>Works</p>
+                    <p>Projects</p>
                 </Link>
                 <Link 
                     className="navbar__links"
-                    to='contact'
+                    to='contactId'
                     smooth={true}
                     duration={500}
                     spy={true}

@@ -10,7 +10,7 @@ import { Link } from 'react-scroll'
 
 const Hero = () => {
     return (
-        <div className="hero" id='home'>
+        <div className="hero" id='homeId'>
             <div className="hero__background">
                 <img src={HeroBg} alt="stars"/>
             </div>
@@ -21,16 +21,16 @@ const Hero = () => {
                     Based in Lebanon. I eat, sleep and breathe code.
                 </p>
                 <div className="hero__contentIcons">
-                    <a href="https://www.facebook.com/karl.nassar/" target="_blank">
+                    <a href="https://www.facebook.com/karl.nassar/" target="_blank" rel="noreferrer">
                         <FaFacebookF className="hero__icon"/>
                     </a>
-                    <a href="https://www.linkedin.com/in/karl-nassar-2296a3202/" target="_blank">
+                    <a href="https://www.linkedin.com/in/karl-nassar-2296a3202/" target="_blank" rel="noreferrer">
                     <FaLinkedin className="hero__icon"/>
                     </a>
-                    <a href="https://www.instagram.com/karlnassar1/" target="_blank">
+                    <a href="https://www.instagram.com/karlnassar1/" target="_blank" rel="noreferrer">
                     <ImInstagram className="hero__icon"/>
                     </a>
-                    <a href="https://github.com/KarlGNassar"target="_blank">
+                    <a href="https://github.com/KarlGNassar"target="_blank" rel="noreferrer">
                     <FaGithub className="hero__icon"/>
                     </a>
                 </div>
@@ -38,7 +38,7 @@ const Hero = () => {
 
             <div className="hero__arrow">
                 <Link
-                    to='about'
+                    to='aboutId'
                     smooth={true}
                     duration={500}
                     spy={true}

@@ -5,7 +5,7 @@ import { FaDownload } from 'react-icons/fa'
 
 const About = () => {
     return (
-        <div className="about" id='about'>
+        <div className="about" id='aboutId'>
             <div className="about__left">
                 <img className="about__image" src={PorfilePic} alt="profile"/>
             </div>
@@ -30,7 +30,7 @@ const About = () => {
                     </div>
 
                     <div className="about__resume">
-                        <a>
+                        <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
                             <button className="about__button"><FaDownload /> Download Resume</button>
                         </a>
                     </div>
