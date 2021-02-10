@@ -21,16 +21,16 @@ const Hero = () => {
                     Based in Lebanon. I eat, sleep and breathe code.
                 </p>
                 <div className="hero__contentIcons">
-                    <a href="">
+                    <a href="https://www.facebook.com/karl.nassar/" target="_blank">
                         <FaFacebookF className="hero__icon"/>
                     </a>
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/karl-nassar-2296a3202/" target="_blank">
                     <FaLinkedin className="hero__icon"/>
                     </a>
-                    <a href="">
+                    <a href="https://www.instagram.com/karlnassar1/" target="_blank">
                     <ImInstagram className="hero__icon"/>
                     </a>
-                    <a href="">
+                    <a href="https://github.com/KarlGNassar"target="_blank">
                     <FaGithub className="hero__icon"/>
                     </a>
                 </div>
@@ -43,7 +43,7 @@ const Hero = () => {
                     duration={500}
                     spy={true}
                     exact='true'
-                    offset={-90}
+                    offset={-45}
                 >
                     <IoIosArrowDown 
                         className="hero__arrowIcon" />

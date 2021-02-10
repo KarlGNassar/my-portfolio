@@ -1,9 +1,15 @@
 .navbar {
   width: 100vw;
-  height: 80px;
+  height: 50px;
   background-color: transparent;
   position: fixed;
   z-index: 999;
+  transition: all 0.5s ease-in;
+}
+
+.navbar__dark {
+  transition: all 0.5s ease-in;
+  background-color: #333333;
 }
 
 .navbar__elements {
@@ -27,6 +33,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-.navbar__links .active {
+.active {
   color: #d05a09;
 }
