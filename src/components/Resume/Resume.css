@@ -11,7 +11,7 @@
 
 .resume__option {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 2fr;
   border-bottom: 1px solid #eeeeee;
   margin-bottom: 40px;
 }
@@ -36,6 +36,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: left;
+  justify-self: left;
 }
 
 .resume__info > h1 {
@@ -53,7 +55,7 @@
 
 .resume__info > p {
   color: #868e96;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 300;
   margin-bottom: 30px;
 }
@@ -103,14 +105,14 @@
 }
 
 .resume__infoSkills > h1 {
-  font-size: 1.9rem;
+  font-size: 25px;
   text-align: left;
   font-weight: 700;
 }
 
 .resume__infoSkills > p {
   color: #868e96;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.5;
 }

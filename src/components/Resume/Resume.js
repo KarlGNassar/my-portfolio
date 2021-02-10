@@ -6,7 +6,7 @@ import { FiMonitor } from 'react-icons/fi'
 
 const Resume = () => {
     return (
-        <div className="resume" id="resumeId">
+        <div id="resumeId" className="resume">
                 <div className="resume__option">
                         <div className="resume__optionLeft">
                             <h1 className="resume__title education">Education</h1>
@@ -72,7 +72,6 @@ const Resume = () => {
                                 <div className="resume__infoSkills">
                                     <FaDatabase className="resume__icon"/>
                                     <h1>Backend</h1>
-                                    <p>Python</p>
                                     <p>NodeJS</p>
                                     <p>NPM</p>
                                     <p>Expres</p>
@@ -80,6 +79,7 @@ const Resume = () => {
                                     <p>MongoDB</p>
                                     <p>Firebase</p>
                                     <p>Rest API</p>
+                                    <p>Python</p>
                                 </div>
 
                                 <div className="resume__infoSkills">

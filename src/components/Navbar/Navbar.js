@@ -25,7 +25,7 @@ const Navbar = () => {
                     className="navbar__links"
                     to='homeId'
                     smooth={true}
-                    duration={500}
+                    duration={1000}
                     spy={true}
                     exact='true'
                     offset={-45}
@@ -36,7 +36,7 @@ const Navbar = () => {
                     className="navbar__links"
                     to='aboutId'
                     smooth={true}
-                    duration={500}
+                    duration={1000}
                     spy={true}
                     exact='true'
                     offset={-45}
@@ -47,7 +47,7 @@ const Navbar = () => {
                     className="navbar__links"
                     to='resumeId'
                     smooth={true}
-                    duration={500}
+                    duration={1000}
                     spy={true}
                     exact='true'
                     offset={-45}
@@ -58,7 +58,7 @@ const Navbar = () => {
                     className="navbar__links"
                     to='projectsId'
                     smooth={true}
-                    duration={500}
+                    duration={1000}
                     spy={true}
                     exact='true'
                     offset={-45}
@@ -69,7 +69,7 @@ const Navbar = () => {
                     className="navbar__links"
                     to='contactId'
                     smooth={true}
-                    duration={500}
+                    duration={1000}
                     spy={true}
                     exact='true'
                     offset={-45}

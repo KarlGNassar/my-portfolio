@@ -5,7 +5,7 @@ import { FaDownload } from 'react-icons/fa'
 
 const About = () => {
     return (
-        <div className="about" id='aboutId'>
+        <div id='aboutId' className="about">
             <div className="about__left">
                 <img className="about__image" src={PorfilePic} alt="profile"/>
             </div>

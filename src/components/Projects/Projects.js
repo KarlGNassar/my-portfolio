@@ -9,7 +9,7 @@ import { VscGithub } from 'react-icons/vsc'
 
 const Projects = () => {
     return (
-        <div className="projects" id="projectsId">
+        <div id="projectsId" className="projects">
             <h2>Check out some of my projects.</h2>
 
             <div className="projects__container">
