@@ -52,11 +52,6 @@
   flex: 0.8;
 }
 
-.contact__input > input::placeholder,
-.contact__input > textarea::placeholder {
-  padding: 10px;
-}
-
 .contact__input > textarea {
   min-height: 150px !important;
 }
