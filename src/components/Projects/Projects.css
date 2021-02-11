@@ -75,6 +75,7 @@
   width: 100%;
   justify-content: space-evenly;
   align-items: center;
+  scrollbar-width: none;
 }
 
 .projects__icon {
@@ -86,6 +87,10 @@
   transition: 0.3s ease-in;
   transform: translateY(-2px);
   color: #11abb0;
+}
+
+.projects__icons::-webkit-scrollbar {
+  display: none;
 }
 
 @media screen and (max-width: 1000px) {
