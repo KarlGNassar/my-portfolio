@@ -39,7 +39,7 @@ const Contact = () => {
                         </div>
                         <div className="contact__input">
                             <p>Subject</p>
-                            <input type="text" placeholder="subject" name="subject"/>
+                            <input type="text" placeholder="Subject" name="subject"/>
                         </div>
                         <div className="contact__input">
                             <p>Message*</p>
