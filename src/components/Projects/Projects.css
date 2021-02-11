@@ -13,6 +13,7 @@
 }
 
 .projects__container {
+  overflow-y: hidden;
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
@@ -33,6 +34,7 @@
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
+  overflow-y: hidden;
 }
 
 .projects__card:hover {
@@ -50,11 +52,21 @@
 .projects__card > h2 {
   font-size: 1rem;
   margin-bottom: 10px;
+  scrollbar-width: none;
+}
+
+.projects__card > h2::-webkit-scrollbar {
+  display: none;
 }
 
 .projects__card > p {
   font-size: 1rem;
   text-align: center;
+  scrollbar-width: none;
+}
+
+.projects__card > p::-webkit-scrollbar {
+  display: none;
 }
 
 .projects__icons {
