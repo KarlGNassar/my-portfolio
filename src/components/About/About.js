@@ -34,9 +34,9 @@ const About = () => {
                     </div>
 
                     <div className="about__resume">
-                        <a href="https://github.com/KarlGNassar" target="_blank" rel="noreferrer">
-                            <button className="about__button"><FaDownload /> Download Resume</button>
-                        </a>
+                            <a href="https://drive.google.com/file/d/1SRtXim3X-RwSTIYbWCgA6i2MvHEEocpW/view?usp=sharing" target="_blank" rel="noreferrer">
+                                <button className="about__button"><FaDownload /> Download Resume</button>
+                            </a>
                     </div>
                 </div>
             </div>
