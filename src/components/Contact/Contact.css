@@ -57,6 +57,10 @@
   padding: 10px;
 }
 
+.contact__input > textarea {
+  min-height: 150px !important;
+}
+
 .contact__address > h2 {
   color: #ebeeee;
   font-size: 24px;
