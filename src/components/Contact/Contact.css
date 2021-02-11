@@ -93,4 +93,7 @@
   .contact__container {
     flex-direction: column;
   }
+  .contact__icon {
+    font-size: 50px;
+  }
 }

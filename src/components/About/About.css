@@ -22,6 +22,8 @@
 }
 
 .about__content {
+  overflow-x: visible !important;
+
   display: flex;
   flex-direction: column;
   flex: 0.6;
@@ -103,6 +105,7 @@
     display: none;
   }
   .about__content {
+    padding-left: 0;
     margin-left: 0;
     margin-right: 0;
   }
@@ -114,5 +117,9 @@
   }
   .about__lower {
     flex-direction: column;
+  }
+  .about__content {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
