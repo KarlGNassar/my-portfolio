@@ -14,7 +14,7 @@ const About = () => {
                 <div className="about__paragraph">
                     <h1>About Me</h1>
                     <p>
-                        Hi There! I am Karl! I've been coding for 3 months. Currently studying at the Lebanese University, I am a 
+                        Hi There! I am a 19 years old passionate programmer! I've been coding for 3 months. Currently studying at the Lebanese University, I am a 
                         passionate learner about coding and full stack development. My journey started when I came across a youtube 
                         video talking about react.js and how it is becoming the best web framework in 2020; this got me instantly
                         hooked to javascript and web development. Always seeking new challenges and adventures, I hope to take 
