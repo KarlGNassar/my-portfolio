@@ -30,20 +30,20 @@ const Contact = () => {
                 <div className="contact__form">
                     <form onSubmit={sendEmail}>
                         <div className="contact__input">
-                        <p>Name*</p>
-                        <input type="text" placeholder="Name" name="name"/>
+                        <p>Name <span className="contact__required">*</span></p>
+                        <input type="text" placeholder="Name" name="name" required/>
                         </div>
                         <div className="contact__input">
-                            <p>Email*</p>
-                            <input type="text" placeholder="Email" name="name"/>
+                            <p>Email <span className="contact__required">*</span></p>
+                            <input type="text" placeholder="Email" name="name" required/>
                         </div>
                         <div className="contact__input">
                             <p>Subject</p>
                             <input type="text" placeholder="Subject" name="subject"/>
                         </div>
                         <div className="contact__input">
-                            <p>Message*</p>
-                            <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                            <p>Message <span className="contact__required">*</span></p>
+                            <textarea name="message" id="" cols="30" rows="10" placeholder="Message" required></textarea>
                         </div>
                         <input type="submit" value="SUBMIT" className="contact__button"/>
                     </form>

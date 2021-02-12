@@ -88,6 +88,10 @@
   transition: 0.3s ease-in;
 }
 
+.contact__required {
+  color: #11abb0;
+}
+
 @media screen and (max-width: 800px) {
   .contact__container {
     flex-direction: column;
