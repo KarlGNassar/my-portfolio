@@ -113,9 +113,6 @@
 }
 
 @media screen and (max-width: 550px) {
-  .about {
-    height: 100vh;
-  }
   .about__lower {
     flex-direction: column;
   }
