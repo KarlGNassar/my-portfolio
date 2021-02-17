@@ -66,7 +66,6 @@ const Resume = () => {
                                     <p>JavaScript</p>
                                     <p>Bootstrap</p>
                                     <p>Material UI</p>
-                                    <p>API</p>
                                 </div>
 
                                 <div className="resume__infoSkills">
