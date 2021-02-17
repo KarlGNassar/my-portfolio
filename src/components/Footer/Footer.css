@@ -61,3 +61,11 @@ small {
 .footer__name {
   color: #4f4d4c;
 }
+
+@media screen and (max-width: 750px) {
+  .footer__media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
