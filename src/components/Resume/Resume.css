@@ -131,4 +131,11 @@
     font-size: 20px;
     text-align: center;
   }
+  .education,
+  .work {
+    padding-left: 15px;
+  }
+  .skills {
+    padding-left: 5px;
+  }
 }

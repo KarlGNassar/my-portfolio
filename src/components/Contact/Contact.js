@@ -35,7 +35,7 @@ const Contact = () => {
                         </div>
                         <div className="contact__input">
                             <p>Email <span className="contact__required">*</span></p>
-                            <input type="text" placeholder="Email" name="name" required/>
+                            <input type="email" placeholder="Email" name="name" required/>
                         </div>
                         <div className="contact__input">
                             <p>Subject</p>

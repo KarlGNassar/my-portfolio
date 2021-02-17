@@ -12,7 +12,7 @@ const Resume = () => {
                             <h1 className="resume__title education">Education</h1>
                         </div>
 
-                        <div className="resume__optionRight">
+                        <div className="resume__optionRight education">
                             <div className="resume__info">
                                     <h1>
                                         LU - Faculty of Engineer - Branch II
@@ -33,7 +33,7 @@ const Resume = () => {
                         <h1 className="resume__title work">Work</h1>
                     </div>
 
-                    <div className="resume__optionRight">
+                    <div className="resume__optionRight work">
                         <div className="resume__info">
                                 <h1>
                                     No work experience yet.
@@ -54,7 +54,7 @@ const Resume = () => {
                         <h1 className="resume__title skills">Skills</h1>
                     </div>
 
-                    <div className="resume__optionRight">
+                    <div className="resume__optionRight skills">
                         <div className="resume__info">
                             <div className="resume__wrapper">
                                 <div className="resume__infoSkills">
