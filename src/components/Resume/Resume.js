@@ -29,9 +29,9 @@ const Resume = () => {
 
         <div className="resume__optionRight work">
           <div className="resume__info">
-            <h1>No work experience yet.</h1>
+            <h1>Above The Fold</h1>
 
-            <h4>Backend Developer At Above the Fold</h4>
+            <h4>Backend Developer</h4>
 
             <p>
               Learned new techs and worked on a utility app for a private
