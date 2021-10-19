@@ -1,7 +1,7 @@
-import React from 'react';
-import './About.css';
-import PorfilePic from '../../images/profile.png';
-import { FaDownload } from 'react-icons/fa';
+import React from "react";
+import "./About.css";
+import PorfilePic from "../../images/profile.png";
+import { FaDownload } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -38,7 +38,7 @@ const About = () => {
 
           <div className="about__resume">
             <a
-              href="https://drive.google.com/file/d/10Y1fbmaYy6mlEajlLyAavSdYCM0Dh2-e/view?usp=sharing"
+              href="https://drive.google.com/file/d/1MKbqnptCmSplZF9oOkcvF1FG2ELiPsmr/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
