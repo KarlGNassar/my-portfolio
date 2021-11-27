@@ -35,7 +35,7 @@ const Hero = () => {
                     <a href="https://www.facebook.com/karl.nassar/" target="_blank" rel="noreferrer">
                         <FaFacebookF className="hero__icon"/>
                     </a>
-                    <a href="https://www.linkedin.com/in/karl-nassar-2296a3202/" target="_blank" rel="noreferrer">
+                    <a href="www.linkedin.com/in/karl-nassar" target="_blank" rel="noreferrer">
                     <FaLinkedin className="hero__icon"/>
                     </a>
                     <a href="https://www.instagram.com/karlnassar1/" target="_blank" rel="noreferrer">
