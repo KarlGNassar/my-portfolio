@@ -38,12 +38,9 @@ const About = () => {
 
           <div className="about__resume">
             <a
-              // href="https://drive.google.com/file/d/1ojM7eILBS0iSnKSOFDxxk_i8EEpURKSx/view?usp=sharing"
-              // target="_blank"
-              // rel="noreferrer"
-              // href="/src/asset/CV.pdf"
-              href="../../asset/CV.pdf"
-              download="CV.pdf"
+              href="https://drive.google.com/file/d/1ojM7eILBS0iSnKSOFDxxk_i8EEpURKSx/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
             >
               <button className="about__button">
                 <FaDownload /> Download Resume
