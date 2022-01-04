@@ -15,13 +15,13 @@ const About = () => {
           <h1>About Me</h1>
           <p>
             Hi There! I am a 19 years old passionate programmer! I've been
-            coding since December. Currently studying at the Lebanese University
-            (2nd year), I am a passionate about learning coding and full stack
-            development. My journey started when I came across a youtube video
-            talking about react.js and how it is becoming the most popular web
-            framework in 2020; this got me instantly hooked to javascript and
-            web development. Always seeking new challenges and adventures, I
-            hope to take my coding and problem solving skills to the next level.
+            coding since December. I am a passionate about learning coding and
+            full stack development. My journey started when I came across a
+            youtube video talking about react.js and how it is becoming the most
+            popular web framework in 2020; this got me instantly hooked to
+            javascript and web development. Always seeking new challenges and
+            adventures, I hope to take my coding and problem solving skills to
+            the next level.
           </p>
         </div>
 
