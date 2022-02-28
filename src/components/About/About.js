@@ -34,6 +34,7 @@ const About = () => {
             <p>+961 70 888 558</p>
             <p>kgnassar01@gmail.com</p>
             <p>karlnassar_01@hotmail.com</p>
+            <p>Hellolo</p>
           </div>
 
           <div className="about__resume">
