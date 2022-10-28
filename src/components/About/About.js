@@ -14,14 +14,19 @@ const About = () => {
         <div className="about__paragraph">
           <h1>About Me</h1>
           <p>
-            Hi There! I am a 19 years old passionate programmer! I've been
-            coding since December. I am a passionate about learning coding and
-            full stack development. My journey started when I came across a
-            youtube video talking about react.js and how it is becoming the most
-            popular web framework in 2020; this got me instantly hooked to
-            javascript and web development. Always seeking new challenges and
-            adventures, I hope to take my coding and problem solving skills to
-            the next level.
+            Hi There! I am a{" "}
+            {Math.abs(
+              new Date(
+                Date.now() - new Date(2001, 11, 6).getTime()
+              ).getUTCFullYear() - 1970
+            )}{" "}
+            years old passionate programmer! I've been coding since December
+            2020. I am a passionate about learning coding and full stack
+            development. My journey started when I came across a youtube video
+            talking about react.js and how it is becoming the most popular web
+            framework in 2020; this got me instantly hooked to javascript and
+            web development. Always seeking new challenges and adventures, I
+            hope to take my coding and problem solving skills to the next level.
           </p>
         </div>
 
@@ -38,7 +43,7 @@ const About = () => {
 
           <div className="about__resume">
             <a
-              href="https://drive.google.com/file/d/18MYnvbocQ4d5XvS8yPVlx1zQTmdyNbJC/view?usp=sharing"
+              href="https://drive.google.com/file/d/10NfqhTDsXSL3XcKvxl7icrQXV-bslmjJ/view?usp=share_link"
               target="_blank"
               rel="noreferrer"
             >
