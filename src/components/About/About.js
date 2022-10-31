@@ -7,13 +7,20 @@ const About = () => {
   return (
     <div id="aboutId" className="about">
       <div className="about__left">
-        <img className="about__image" src={PorfilePic} alt="profile" />
+        <img
+          className="about__image"
+          src={PorfilePic}
+          alt="profile"
+          data-aos="fade-right"
+        />
       </div>
 
       <div className="about__content">
         <div className="about__paragraph">
-          <h1>About Me</h1>
-          <p>
+          <h1 data-aos="fade-up" data-aos-delay="200">
+            About Me
+          </h1>
+          <p data-aos="fade-up" data-aos-delay="200">
             Hi There! I am a{" "}
             {Math.abs(
               new Date(
@@ -30,7 +37,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="about__lower">
+        <div className="about__lower" data-aos="fade-up" data-aos-delay="200">
           <div className="about__details">
             <h1>Contact Details</h1>
 
@@ -41,7 +48,7 @@ const About = () => {
             <p>karlnassar_01@hotmail.com</p>
           </div>
 
-          <div className="about__resume">
+          <div className="about__resume" data-aos="fade-left">
             <a
               href="https://drive.google.com/file/d/1CqcMQElHmEP6uCAffItpAS4QcFsmt9VJ/view?usp=sharing"
               target="_blank"

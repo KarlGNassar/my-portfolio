@@ -1,7 +1,7 @@
-import React from 'react';
-import './Contact.css';
-import emailjs from 'emailjs-com';
-import { HiMail } from 'react-icons/hi';
+import React from "react";
+import "./Contact.css";
+import emailjs from "emailjs-com";
+import { HiMail } from "react-icons/hi";
 
 const Contact = () => {
   const sendEmail = (e) => {
@@ -9,10 +9,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_sbiey5i',
-        'template_vhm3lfc',
+        "service_sbiey5i",
+        "template_vhm3lfc",
         e.target,
-        'user_tSO4zJrwJzQkF1DpUZCGg',
+        "user_tSO4zJrwJzQkF1DpUZCGg"
       )
       .then(
         (result) => {
@@ -20,7 +20,7 @@ const Contact = () => {
         },
         (error) => {
           console.log(error.text);
-        },
+        }
       );
     e.target.reset();
   };
