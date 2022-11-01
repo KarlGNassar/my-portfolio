@@ -13,6 +13,7 @@
 }
 
 .projects__container {
+  overflow: hidden;
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
