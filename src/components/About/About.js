@@ -50,7 +50,7 @@ const About = () => {
 
           <div className="about__resume" data-aos="fade-left">
             <a
-              href="https://drive.google.com/file/d/1CqcMQElHmEP6uCAffItpAS4QcFsmt9VJ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1QRzg3e1AHY_BJ9NT_VFj3ItTLTgZiMwD/view?usp=share_link"
               target="_blank"
               rel="noreferrer"
             >
