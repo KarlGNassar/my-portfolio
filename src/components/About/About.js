@@ -49,11 +49,7 @@ const About = () => {
           </div>
 
           <div className="about__resume" data-aos="fade-left">
-            <a
-              href="https://drive.google.com/file/d/1QRzg3e1AHY_BJ9NT_VFj3ItTLTgZiMwD/view?usp=share_link"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="/Karl-Nassar.pdf" target="_blank" rel="noreferrer">
               <button className="about__button">
                 <FaDownload /> Download Resume
               </button>
