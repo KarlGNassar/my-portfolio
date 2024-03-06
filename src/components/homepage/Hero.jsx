@@ -2,12 +2,32 @@ import { gsap } from "gsap";
 import { useRef, useEffect } from "react";
 import heroImg from "/src/assets/images/heroimg.webp";
 
-export default function Hero() {
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+export default function Hero({ sectionRefs }) {
   const img = useRef(null);
   const imgContainer = useRef(null);
   const titles = useRef([]);
   const scrollLine = useRef(null);
+  const scrollText = useRef(null);
   const scroll = useRef(null);
+  gsap.registerPlugin(ScrollTrigger);
+
+  useEffect(() => {
+    sectionRefs.forEach((section) => {
+      ScrollTrigger.create({
+        trigger: section,
+        start: "top 375px",
+        end: "bottom 300px",
+        // markers: true,
+        animation: gsap
+          .timeline()
+          .to(scrollLine.current, { backgroundColor: "#D1D1C7" }, 0)
+          .to(scrollText.current, { color: "#D1D1C7" }, 0),
+        toggleActions: "restart reverse restart reverse",
+      });
+    });
+  });
 
   useEffect(() => {
     const tl = gsap.timeline({ repeat: -1 });
@@ -80,7 +100,9 @@ export default function Hero() {
         ref={scroll}
         className="absolute bottom-12 right-0 flex flex-col items-center justify-center space-y-8"
       >
-        <span className=" rotate-90 text-body-3">scroll</span>
+        <span className=" rotate-90 text-body-3" ref={scrollText}>
+          scroll
+        </span>
         <div className="relative h-1 w-10 rotate-90 overflow-hidden">
           <span
             ref={scrollLine}
