@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import Lenis from "@studio-freight/lenis";
-import lebanon from "/src/assets/images/lebanon.png";
+import LebanonLogo from "./LebanonLogo";
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -55,7 +55,7 @@ export default function NavBar({ sectionRefs }) {
     >
       {/* logo */}
       <a href="#hero" aria-label="Logo" className="z-50">
-        <img ref={logo} src={lebanon} width={45} alt="lebanese cedar" />
+        <LebanonLogo ref={logo} width={45} />
       </a>
       <nav className=" space-x-7 font-grotesk text-body-3 sm:block">
         <a href="#about" className="group relative hidden md:inline-block">
