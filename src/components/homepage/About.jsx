@@ -9,6 +9,7 @@ export default function About() {
   const aboutSection = useRef(null);
   const heading = useRef(null);
   const body = useRef(null);
+  const age = new Date().getFullYear() - 2001;
 
   useEffect(() => {
     ScrollTrigger.create({
@@ -60,7 +61,7 @@ export default function About() {
               ref={body}
               className=" translate-y-10 text-body-1 opacity-0 2xl:text-4xl"
             >
-              I am a 22 years old Software Engineer, based in Beirut, Lebanon.
+              I am a {age} years old Software Engineer, based in Beirut, Lebanon.
               <br></br>
               <br></br>I specialize in crafting elevated, complex, and robust
               solutions for startups and small businesses to help them stand out
