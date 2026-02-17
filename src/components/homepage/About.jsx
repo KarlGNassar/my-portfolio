@@ -9,7 +9,12 @@ export default function About() {
   const aboutSection = useRef(null);
   const heading = useRef(null);
   const body = useRef(null);
-  const age = new Date().getFullYear() - 2001;
+  const today = new Date();
+  const birthDate = new Date(2001, 10, 6);
+  const hasHadBirthdayThisYear =
+    today >= new Date(today.getFullYear(), birthDate.getMonth(), birthDate.getDate());
+  const age =
+    today.getFullYear() - birthDate.getFullYear() - (hasHadBirthdayThisYear ? 0 : 1);
 
   useEffect(() => {
     ScrollTrigger.create({
